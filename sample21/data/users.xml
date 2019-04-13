@@ -1,0 +1,12 @@
+<users>
+    <user>
+        <name>Bob</name>
+        <gender>1</gender>
+        <address>Califonia America</address>
+    </user>
+    <user>
+        <name>Alice</name>
+        <gender>0</gender>
+        <address>Beking China</address>
+    </user>
+</users>

@@ -1,0 +1,1 @@
+cmake ../ -DCMAKE_INSTALL_PREFIX=/projects/c-proj/3rd -DBUILD_SHARED_AND_STATIC_LIBS=On
