@@ -2,7 +2,7 @@
 
 * sample10 - 打包静态库
 * sample11 - 引用不带头文件静态库
-* sample12 - 带头文件静态库
+* sample12 - 打包带头文件静态库
 * sample13 - 引用带头文件静态库
 * sample14 - 打包动态库
 * sample15 - 引用动态库

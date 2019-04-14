@@ -3,7 +3,7 @@
 
 int main() 
 {
-  char *email = "banyuan@banyuan.club";
+  char *email = "zhangxiaojing@banyuan.club";
   char *pattern = "^[a-zA-Z0-9_-]+@.+\\.(.+)";
   char errbuf[1024];
   regex_t reg;
@@ -12,7 +12,7 @@ int main()
   int err;
 
   // 参数3：REG_ICASE 忽略大小写
-  if(regcomp(&reg, pattern, REG_ICASE) < 0){
+  if(regcomp(&reg, pattern, REG_EXTENDED|REG_ICASE) < 0){
     regerror(err, &reg, errbuf, sizeof(errbuf));
     printf("err:%s\n",errbuf);
     return 1;
