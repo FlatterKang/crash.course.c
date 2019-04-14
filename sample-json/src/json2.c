@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../3rd/include/cjson/cJSON.h"
+#include <cjson/cJSON.h>
 
 char * getJson(const char * filename) {
     FILE *fp = fopen(filename, "r");
