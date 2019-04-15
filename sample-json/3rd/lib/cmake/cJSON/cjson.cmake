@@ -42,7 +42,7 @@ unset(_expectedTargets)
 
 
 # The installation prefix configured by this project.
-set(_IMPORT_PREFIX "/projects/c-proj/3rd")
+set(_IMPORT_PREFIX "/Users/zhangxiaojing/projects/crash.course.c/sample20/3rd")
 
 # Create imported target cjson
 add_library(cjson SHARED IMPORTED)

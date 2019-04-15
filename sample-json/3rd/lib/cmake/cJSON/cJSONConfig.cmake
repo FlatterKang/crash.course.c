@@ -2,8 +2,8 @@
 set(CJSON_UTILS_FOUND OFF)
 
 # The include directories used by cJSON
-set(CJSON_INCLUDE_DIRS "/projects/c-proj/3rd/include")
-set(CJSON_INCLUDE_DIR "/projects/c-proj/3rd/include")
+set(CJSON_INCLUDE_DIRS "/Users/zhangxiaojing/projects/crash.course.c/sample20/3rd/include")
+set(CJSON_INCLUDE_DIR "/Users/zhangxiaojing/projects/crash.course.c/sample20/3rd/include")
 
 get_filename_component(_dir "${CMAKE_CURRENT_LIST_FILE}" PATH)
 

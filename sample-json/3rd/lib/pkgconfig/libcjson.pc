@@ -1,5 +1,5 @@
-libdir=/projects/c-proj/3rd/lib
-includedir=/projects/c-proj/3rd/include
+libdir=/Users/zhangxiaojing/projects/crash.course.c/sample20/3rd/lib
+includedir=/Users/zhangxiaojing/projects/crash.course.c/sample20/3rd/include
 
 Name: libcjson
 Version: 1.7.10
