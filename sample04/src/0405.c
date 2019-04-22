@@ -4,20 +4,23 @@
 #include <stdio.h>
 enum animal {Dog, Cat, Monkey, Invalid};
 
-int main(void)
-{
-	enum animal selected;
-	do {
-		printf("0……狗 1……猫 2……猴 3……结束：");
-		scanf("%d", &selected);
-	} while (selected < Dog || selected > Invalid);
+int main(void) {
+    enum animal selected;
 
-	switch (selected) {
-	case Dog: puts("汪汪！！！"); break;
-	case Cat: puts("喵喵～～～"); break;
-	case Monkey: puts("唧唧---"); break;
-	case Invalid: break;
-	}
+    do {
+        printf("0……狗 1……猫 2……猴 3……结束：");
+        scanf("%d", &selected);
+    } while (selected < Dog || selected > Invalid);
 
-	return 0;
+    switch (selected) {
+    case Dog: puts("汪汪！！！"); break;
+
+    case Cat: puts("喵喵～～～"); break;
+
+    case Monkey: puts("唧唧---"); break;
+
+    case Invalid: break;
+    }
+
+    return 0;
 }

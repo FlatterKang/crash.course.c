@@ -2,18 +2,19 @@
 #include <stdlib.h>
 #include <cjson/cJSON.h>
 
-char * getJson(const char * filename) {
+char *getJson(const char *filename) {
     FILE *fp = fopen(filename, "r");
-    if(fp == NULL) {
+
+    if (fp == NULL) {
         return NULL;
     }
 
     fseek(fp, 0, SEEK_END);
     long length = ftell(fp);
 
-    char *p = (char*)malloc(sizeof(char) * length);
+    char *p = (char *)malloc(sizeof(char) * length);
 
-    rewind(fp);        
+    rewind(fp);
     fread(p, sizeof(char), length, fp);
     fclose(fp);
 
@@ -23,14 +24,16 @@ char * getJson(const char * filename) {
 int main(int argc, char **argv) {
     if (argc <= 1) {
         printf("Usage: %s json_file\n", argv[0]);
-        return(0);
+        return (0);
     }
+
     char *jsonPtr = getJson(argv[1]);
+
     if (jsonPtr == NULL) {
         printf("\a无法打开文件。%s\n", argv[1]);
-        return(0);
+        return (0);
     }
-        
+
     cJSON *json = cJSON_Parse(jsonPtr);
     // printf("%s\n", cJSON_Print(json));
 
@@ -43,16 +46,18 @@ int main(int argc, char **argv) {
 
         printf("%s: ", name->valuestring);
         printf("%d岁, ", age->valueint);
+
         if (gender->valueint == 1) {
             printf("小伙子");
         } else {
             printf("大姑娘");
         }
+
         printf(", 来自 %s.", addr->valuestring);
         puts("");
     }
     return 0;
-} 
+}
 
-// 1. google C style 
+// 1. google C style
 // 2. 如何学习API

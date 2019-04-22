@@ -3,23 +3,23 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	int i , j;
+int main(void) {
+    int i , j;
 
-	for (i = 1; i <= 9; i ++) {
-		for (j = 1; j <= 9; j++) {
-			int n = i * j;
-			/*
-			if (n % 10 == 4) {
-				printf("   ");
-				continue;
-			}
-			*/
-			printf("%3d", n);
-		}
-		putchar('\n');
-	}
+    for (i = 1; i <= 9; i ++) {
+        for (j = 1; j <= 9; j++) {
+            int n = i * j;
+            /*
+            if (n % 10 == 4) {
+            	printf("   ");
+            	continue;
+            }
+            */
+            printf("%3d", n);
+        }
 
-	return 0;
+        putchar('\n');
+    }
+
+    return 0;
 }

@@ -6,6 +6,7 @@
 * sample13 - 引用带头文件静态库
 * sample14 - 打包动态库
 * sample15 - 引用动态库
+* sample-bit - 学习数
 * sample-json - 引用json解析库
 * sample-xml - 引用xml解析库
 * sample-csv - csv例程
