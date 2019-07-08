@@ -1,2 +1,6 @@
 export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
-gcc `pkg-config --libs --cflags libxml-2.0` ./src/sample1.c -o ./bin/sample1 && ./bin/sample1 ./data/story.xml
+SRC_PATH=./src
+BIN_PATH=./bin
+DATA_PATH=./data
+
+gcc `pkg-config --libs --cflags libxml-2.0` $SRC_PATH/sample.c -o $BIN_PATH/sample && ./bin/sample $DATA_PATH/users.xml
