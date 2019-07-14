@@ -6,7 +6,7 @@
 
 int main(void) {
 
-    char numeric = -104;
+    char numeric = -101;
     printf("%d的二进制是：", numeric);
     char bits[8];
     int len = sizeof(char) * 8;
