@@ -10,7 +10,7 @@ int main(void) {
     printf("从变量pi得到的圆周率为%23.21f\n", pi);
 
     /*写入操作*/
-    if ((fp = fopen("PI.bin", "wb")) == NULL) {
+    if ((fp = fopen("./data/PI.bin", "wb")) == NULL) {
         printf("文件打开失败\n");
     } else {
         fwrite(&pi, sizeof(double), 1, fp);
@@ -18,7 +18,7 @@ int main(void) {
     }
 
     /*读取操作*/
-    if ((fp = fopen("PI.bin", "rb")) == NULL) {
+    if ((fp = fopen("./data/PI.bin", "rb")) == NULL) {
         printf("文件打开失败\n");
     } else {
         fread(&pi, sizeof(double), 1, fp);

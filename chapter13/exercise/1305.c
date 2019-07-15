@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 
-char data_file[] = "datetime.dat";
+char data_file[] = "./data/datetime.dat";
 
 /*取得并显示上一次运行时的日期和时间*/
 void get_data(void) {

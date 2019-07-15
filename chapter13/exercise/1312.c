@@ -1,12 +1,13 @@
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-char data_file[] = "datetime.dat";
+char data_file[] = "./data/datetime.dat";
 
 /*取得并显示上一次运行时的日期和时间*/
 void get_data(void) {
     FILE *fp;
-    struct tm *timer;
+    struct tm *timer = malloc(sizeof(struct tm));
 
     if ((fp = fopen(data_file, "rb")) == NULL) {
         printf("本程序第一次运行\n");

@@ -9,7 +9,7 @@ int main(void) {
     time_t current = time(NULL);/*当前日历的时间*/
     struct tm *timer = localtime(&current);/*分解时间（当地时间）*/
 
-    if ((fp = fopen("dt_dat", "w")) == NULL) { /*打开文件*/
+    if ((fp = fopen("./data/dt.dat", "w")) == NULL) { /*打开文件*/
         printf("\a文件打开失败\n");
     } else {
         printf("写出当前日期和时间\n");

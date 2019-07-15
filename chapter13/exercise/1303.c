@@ -31,7 +31,7 @@ int main(void) {
     double hsum = 0.0;       /*身高合计*/
     double wsum = 0.0;       /*体重合计*/
 
-    if ((fp = fopen("hw.dat", "r")) == NULL) { /*打开文件*/
+    if ((fp = fopen("./data/table2.dat", "r")) == NULL) { /*打开文件*/
         printf("\a文件打开失败！！！\n");
     } else {
 

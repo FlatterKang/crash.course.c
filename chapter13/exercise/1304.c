@@ -10,7 +10,7 @@ int main(void) {
     FILE *fp;
     int num;
 
-    if ((fp = fopen("dt_dat", "w")) == NULL) { /*打开文件*/
+    if ((fp = fopen("./data/table.dat", "w")) == NULL) { /*打开文件*/
         printf("\a文件打开失败\n");
     } else {
         printf("写入几个学生的信息？");

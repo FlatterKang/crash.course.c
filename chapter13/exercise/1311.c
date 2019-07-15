@@ -8,7 +8,7 @@ int main(void) {
     double r[10];
     FILE *fp;
 
-    if ((fp = fopen("double_test", "wb")) == NULL) {
+    if ((fp = fopen("./data/double.dat", "wb")) == NULL) {
         printf("文件打开失败！\n");
     } else {
         fwrite(d, sizeof(double), 10, fp);
@@ -16,7 +16,7 @@ int main(void) {
     }
 
 
-    if ((fp = fopen("double_test", "rb")) == NULL) {
+    if ((fp = fopen("./data/double.dat", "rb")) == NULL) {
         printf("文件打开失败！\n");
     } else {
         fread(r, sizeof(double), 10, fp);

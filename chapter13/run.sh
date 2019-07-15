@@ -1,0 +1,1 @@
+gcc exercise/1312.c -o main && ./main
