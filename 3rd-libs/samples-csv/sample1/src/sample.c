@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "../lib/csv_parser/csv.h"
+#include <csv.h>
 
 /**
  * 用csv_parser解析一行逗号分隔字符串，并输出到屏幕上
