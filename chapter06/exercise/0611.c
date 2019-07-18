@@ -23,7 +23,7 @@ void print_array(const int v[], int n) {
 }
 int main(void) {
     int ary[] = {1, 7, 5, 7, 2, 4, 7};
-    int idx[] = {0};
+    int idx[7] = {0};
     int key = 7;
 
     int count = 0;
