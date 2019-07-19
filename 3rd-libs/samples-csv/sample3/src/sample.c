@@ -32,7 +32,7 @@ void print_one_line_csv(char *line) {
  * 从文件读取CSV数据解析。
  */
 int parse_csv_test() {
-    FILE *fp = fopen("./data/users.csv", "r");
+    FILE *fp = fopen("./users.csv", "r");
 
     if (fp == NULL) {
         printf("%s\n", "File not found.");
