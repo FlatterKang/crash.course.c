@@ -7,75 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF8796822E0C14E00634F79 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8796722E0C14E00634F79 /* main.c */; };
-		1CF8797222E0C2CD00634F79 /* libcsv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF8797122E0C2CD00634F79 /* libcsv.a */; };
-		1CF8797322E0C35A00634F79 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CF8796F22E0C25800634F79 /* data */; };
+		E61A647D22E3219B00949EAE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E61A647C22E3219B00949EAE /* main.c */; };
+		E61A648522E323B700949EAE /* libcsv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61A648422E323B700949EAE /* libcsv.a */; };
+		E6AAC4C822E35FA800E7B2C4 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = E6FBB34622E35F87006162F8 /* data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1CF8796222E0C14E00634F79 /* CopyFiles */ = {
+		E61A647722E3219B00949EAE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				1CF8797322E0C35A00634F79 /* data in CopyFiles */,
+				E6AAC4C822E35FA800E7B2C4 /* data in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1CF8796422E0C14E00634F79 /* CSVEditor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSVEditor; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CF8796722E0C14E00634F79 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		1CF8796E22E0C25700634F79 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
-		1CF8796F22E0C25800634F79 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
-		1CF8797122E0C2CD00634F79 /* libcsv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcsv.a; path = lib/csv_parser/libcsv.a; sourceTree = "<group>"; };
+		E61A647922E3219B00949EAE /* CSVViewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSVViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61A647C22E3219B00949EAE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E61A648422E323B700949EAE /* libcsv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcsv.a; path = lib/csv_parser/libcsv.a; sourceTree = "<group>"; };
+		E6FBB34622E35F87006162F8 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CF8796122E0C14E00634F79 /* Frameworks */ = {
+		E61A647622E3219B00949EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF8797222E0C2CD00634F79 /* libcsv.a in Frameworks */,
+				E61A648522E323B700949EAE /* libcsv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CF8795B22E0C14E00634F79 = {
+		E61A647022E3219B00949EAE = {
 			isa = PBXGroup;
 			children = (
-				1CF8796F22E0C25800634F79 /* data */,
-				1CF8796E22E0C25700634F79 /* lib */,
-				1CF8796622E0C14E00634F79 /* CSVEditor */,
-				1CF8796522E0C14E00634F79 /* Products */,
-				1CF8797022E0C2CD00634F79 /* Frameworks */,
+				E6FBB34622E35F87006162F8 /* data */,
+				E61A647B22E3219B00949EAE /* CSVViewer */,
+				E61A647A22E3219B00949EAE /* Products */,
+				E61A648322E323B700949EAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1CF8796522E0C14E00634F79 /* Products */ = {
+		E61A647A22E3219B00949EAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CF8796422E0C14E00634F79 /* CSVEditor */,
+				E61A647922E3219B00949EAE /* CSVViewer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CF8796622E0C14E00634F79 /* CSVEditor */ = {
+		E61A647B22E3219B00949EAE /* CSVViewer */ = {
 			isa = PBXGroup;
 			children = (
-				1CF8796722E0C14E00634F79 /* main.c */,
+				E61A647C22E3219B00949EAE /* main.c */,
 			);
-			path = CSVEditor;
+			path = CSVViewer;
 			sourceTree = "<group>";
 		};
-		1CF8797022E0C2CD00634F79 /* Frameworks */ = {
+		E61A648322E323B700949EAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1CF8797122E0C2CD00634F79 /* libcsv.a */,
+				E61A648422E323B700949EAE /* libcsv.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,67 +81,67 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CF8796322E0C14E00634F79 /* CSVEditor */ = {
+		E61A647822E3219B00949EAE /* CSVViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CF8796B22E0C14E00634F79 /* Build configuration list for PBXNativeTarget "CSVEditor" */;
+			buildConfigurationList = E61A648022E3219B00949EAE /* Build configuration list for PBXNativeTarget "CSVViewer" */;
 			buildPhases = (
-				1CF8796022E0C14E00634F79 /* Sources */,
-				1CF8796122E0C14E00634F79 /* Frameworks */,
-				1CF8796222E0C14E00634F79 /* CopyFiles */,
+				E61A647522E3219B00949EAE /* Sources */,
+				E61A647622E3219B00949EAE /* Frameworks */,
+				E61A647722E3219B00949EAE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CSVEditor;
-			productName = CSVEditor;
-			productReference = 1CF8796422E0C14E00634F79 /* CSVEditor */;
+			name = CSVViewer;
+			productName = CSVViewer;
+			productReference = E61A647922E3219B00949EAE /* CSVViewer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1CF8795C22E0C14E00634F79 /* Project object */ = {
+		E61A647122E3219B00949EAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "蝈蝈龙";
+				ORGANIZATIONNAME = Allen;
 				TargetAttributes = {
-					1CF8796322E0C14E00634F79 = {
+					E61A647822E3219B00949EAE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1CF8795F22E0C14E00634F79 /* Build configuration list for PBXProject "CSVEditor" */;
+			buildConfigurationList = E61A647422E3219B00949EAE /* Build configuration list for PBXProject "CSVViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1CF8795B22E0C14E00634F79;
-			productRefGroup = 1CF8796522E0C14E00634F79 /* Products */;
+			mainGroup = E61A647022E3219B00949EAE;
+			productRefGroup = E61A647A22E3219B00949EAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CF8796322E0C14E00634F79 /* CSVEditor */,
+				E61A647822E3219B00949EAE /* CSVViewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1CF8796022E0C14E00634F79 /* Sources */ = {
+		E61A647522E3219B00949EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF8796822E0C14E00634F79 /* main.c in Sources */,
+				E61A647D22E3219B00949EAE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1CF8796922E0C14E00634F79 /* Debug */ = {
+		E61A647E22E3219B00949EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,8 +192,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/CSVEditor/lib/csv_parser";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib/csv_parser";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -204,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		1CF8796A22E0C14E00634F79 /* Release */ = {
+		E61A647F22E3219B00949EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,8 +245,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/CSVEditor/lib/csv_parser";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib/csv_parser";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -258,28 +252,22 @@
 			};
 			name = Release;
 		};
-		1CF8796C22E0C14E00634F79 /* Debug */ = {
+		E61A648122E3219B00949EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/csv_parser";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lib/csv_parser",
-				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/lib/csv_parser";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib/csv_parser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1CF8796D22E0C14E00634F79 /* Release */ = {
+		E61A648222E3219B00949EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/csv_parser";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/lib/csv_parser",
-				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/lib/csv_parser";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib/csv_parser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -287,25 +275,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CF8795F22E0C14E00634F79 /* Build configuration list for PBXProject "CSVEditor" */ = {
+		E61A647422E3219B00949EAE /* Build configuration list for PBXProject "CSVViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CF8796922E0C14E00634F79 /* Debug */,
-				1CF8796A22E0C14E00634F79 /* Release */,
+				E61A647E22E3219B00949EAE /* Debug */,
+				E61A647F22E3219B00949EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CF8796B22E0C14E00634F79 /* Build configuration list for PBXNativeTarget "CSVEditor" */ = {
+		E61A648022E3219B00949EAE /* Build configuration list for PBXNativeTarget "CSVViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CF8796C22E0C14E00634F79 /* Debug */,
-				1CF8796D22E0C14E00634F79 /* Release */,
+				E61A648122E3219B00949EAE /* Debug */,
+				E61A648222E3219B00949EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1CF8795C22E0C14E00634F79 /* Project object */;
+	rootObject = E61A647122E3219B00949EAE /* Project object */;
 }
