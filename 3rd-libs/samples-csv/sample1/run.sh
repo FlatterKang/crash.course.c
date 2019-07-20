@@ -4,7 +4,7 @@ SRC_PATH=./src
 BIN_PATH=./bin
 
 rm -rf $BIN_PATH && mkdir -p $BIN_PATH
-gcc -g -Wall $LIB_PATH/csv.c \
+gcc $LIB_PATH/csv.c \
     $LIB_PATH/split.c \
     $LIB_PATH/fread_csv_line.c \
     $SRC_PATH/sample.c \
