@@ -1,6 +1,5 @@
 /*
  *  Copyright 2019 Banyuan Nanjing Ltd.
- *
  */
 
 #include <stdio.h>
