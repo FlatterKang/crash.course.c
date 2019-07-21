@@ -13,13 +13,15 @@ int main(void) {
     char c2 = *str;
     char c3 = *(str + 4);
     char c4 = *str + 2;
-    char c5 = (str + 1)[5];
+    char c5 = *(str + 2);
+    char c6 = (str + 1)[5];
 
     printf("c1 = %c\n", c1);
     printf("c2 = %c\n", c2);
     printf("c3 = %c\n", c3);
     printf("c4 = %c\n", c4);
     printf("c5 = %c\n", c5);
-    
+    printf("c6 = %c\n", c6);
+
     return 0;
 }

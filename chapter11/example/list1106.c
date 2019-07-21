@@ -9,12 +9,18 @@ char *str_copy(char *d, const char *s) {
 
     while (*d++ = *s++)
         ;
+    // while (*s) {
+    //     *d = *s;
+    //     d++;
+    //     s++;
+    // }
 
     return t;
+
 }
 
 int main(void) {
-    char str[128] = "ABC";
+    char str[128] = "ABCDEFGHIJKLMN";
     char tmp[128];
     printf("str = \"%s\"\n", str);
 
